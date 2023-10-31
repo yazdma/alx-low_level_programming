@@ -17,7 +17,7 @@ int num, j, result;
 	 printf("Error\n");
 	 return (1);
 	 }
-	 num = _atoi(argv[1]);
+	 num = atoi(argv[1]);
 	 result = 0 ;
 	 if (num < 0)
 	 {
